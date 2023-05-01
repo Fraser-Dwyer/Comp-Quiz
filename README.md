@@ -3,8 +3,8 @@
 ## Features
 A Computer Science revision tool with two different versions:
 
-- A control version
-- A persuasive strategy version
+- A 'control' version
+- A 'persuasive' version (featuring a leader board)
 
 To swap between the versions, click the three lines in the upper-right-hand corner
 
@@ -22,7 +22,7 @@ To swap between the topics, click the 'Topic' button in the navigation bar at th
 ### Visit the site
 https://fraser-dwyer.github.io/CompQuiz/#/
 
-the sign-Up feature currently disabled so please use one of the pre-existing account details listed below:   
+The sign-Up feature currently disabled so please use one of the pre-existing account details listed below:   
 Username: Panda   
 Password: KuNgFo032$   
    

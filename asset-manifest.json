@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Comp-Quiz/static/css/main.b85af0d7.css",
+    "main.js": "/Comp-Quiz/static/js/main.2d972b67.js",
+    "index.html": "/Comp-Quiz/index.html",
+    "main.b85af0d7.css.map": "/Comp-Quiz/static/css/main.b85af0d7.css.map",
+    "main.2d972b67.js.map": "/Comp-Quiz/static/js/main.2d972b67.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b85af0d7.css",
+    "static/js/main.2d972b67.js"
+  ]
+}

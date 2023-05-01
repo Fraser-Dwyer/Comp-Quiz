@@ -23,17 +23,19 @@ To swap between the topics, click the 'Topic' button in the navigation bar at th
 https://fraser-dwyer.github.io/CompQuiz/#/
 
 The sign-Up feature currently disabled so please use one of the pre-existing account details listed below:   
+
+     Username: Panda   
+     Password: KuNgFo032$   
+   
+     Username: Wolf   
+     Password: Huff&Puff!   
      
-Username: Panda   
-Password: KuNgFo032$   
-   
-Username: Wolf   
-Password: Huff&Puff!   
-   
-Username: Bear   
-Password: ImaB3ar54&   
+     Username: Bear   
+     Password: ImaB3ar54&   
    
 ### Or Run Locally
+- Clone this git repository
 - Install all requirements from the package.json file
 - Run "npm start" from the project directory terminal
 - Navigate to "http://localhost:3000"
+- Login using one of the account detail listed above

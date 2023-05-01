@@ -1,0 +1,159 @@
+.leaderboardcontainer{
+    margin: 68.39px 15px 15px 0px;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 320px;
+    height: 513px;
+}
+
+.leaderboardcontainer img{
+    border: 2px solid black;
+    border-radius: 100%;
+}
+
+.leaderboardcontainer h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.leaderboardcontainer p{
+    display: inline-block;
+    margin: 0px 0px 7px 10px;
+}
+
+.contestantcontainer{
+    width: 100%;
+    height: 40px;
+}
+
+.contestantcontainer img{
+    width: 30px;
+    transform: translate(0px, -2px);
+    margin-left: 7px;
+    margin-right: 3px;
+}
+
+.position{
+    width: 20px;
+    font-size: large;
+}
+
+.name{
+    width: 140px;
+    margin-left: 15px;
+    padding-left: 5px;
+    font-size: large;
+}
+
+.points{
+    float: right;
+    padding-right: 15px;
+    font-size: large;
+}
+
+.positionone{
+    font-weight: bold;
+    width: 35px;
+    font-size: 180%;
+}
+
+.nameone{
+    font-weight: bold;
+    font-size: 180%;
+    width: 140px;
+    transform: translate(-13px, 0px);
+}
+
+.pointsone{
+    font-size: 180%;
+    font-weight: bold;
+    float: right;
+    transform: translate(-12px, 0px);
+}
+
+.positiononeme{
+    font-size: 180%;
+    font-weight: bold;
+    width: 35px;
+    color: #2f6fe3;
+}
+
+.nameoneme{
+    font-size: 180%;
+    font-weight: bold;
+    width: 140px;
+    color: #2f6fe3;
+    transform: translate(-13px, 0px);
+}
+
+.pointsoneme{
+    font-size: 180%;
+    font-weight: bold;
+    float: right;
+    padding-right: 15px;
+    color: #2f6fe3;
+    transform: translate(1px, 0px);
+}
+
+.pictureoneme{
+    width: 40px;
+    transform: translate(-15px, -1px);
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
+
+.positionuser{
+    width: 20px;
+    font-size: 120%;
+    color: #2f6fe3;
+    font-weight: bold;
+}
+
+.nameuser{
+    width: 140px;
+    color: #2f6fe3;
+    font-weight: bold;
+    font-size: 120%;
+    padding-left: 5px;
+}
+
+.pointsuser{
+    float: right;
+    padding-right: 15px;
+    color: #2f6fe3;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.errormsg {
+    padding-top: 150px;
+    text-align: center;
+  }
+
+.redo {
+    color: #2f6fe3;
+    text-decoration: underline;
+    padding-top: 5px;
+    cursor: pointer;
+  }
+
+
+.box{
+    border: 1px solid black;
+}
+
+.box p{
+    position:fixed;
+    font-size: 95%;
+    top:100%;
+    width: 300px;
+    transform: translate(0px, -52px);
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 5px;
+}
+
+.bottomperson{
+    width: 30px;
+    transform: translate(15px, 10px);
+}

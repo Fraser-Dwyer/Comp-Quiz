@@ -1,0 +1,188 @@
+.questionnum{
+    padding: 15px;
+    font-size: 200%;
+    margin-bottom: 0px;
+}
+
+.questiondiv{
+    width: calc(100% - 32px);
+    padding: 15px;
+    margin: 0px 15px 0px 15px;
+    border: 2px black solid;
+    max-height: 265px;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.questiondiv p{
+    margin: 0;
+}
+
+.answerdiv{
+    padding: 10px 15px;
+    margin: 15px;
+    border: 2px black solid;
+    border-radius: 15px;
+    max-height: 234px;
+    overflow: auto;
+}
+
+.answerdiv p{
+    margin: 0;
+}
+
+.answerbox{
+    display: flex;
+    margin: 5px 0px;
+}
+
+.answerbox p{
+    padding-top: 5px;
+}
+
+.answeroption{
+    width: 30px;
+    min-width: 30px;
+    min-height: 30px;
+    height: 30px;
+    font-size: 1rem;
+    margin: 3px 15px 3px 1px;
+    background: #2f6fe3;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 100%;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.answeroptionpicked{
+    margin: 2px 14px 2px 0px;
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+    font-size: 1rem;
+    background: orange;
+    color: #000;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 100%;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.answeroptioncorrect{
+    margin: 5px 14px 0px 0px;
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+    font-size: 1rem;
+    background: rgb(4, 188, 19);
+    color: #000;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 100%;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.answeroption:hover{
+    margin: 2px 14px 2px 0px;
+    width: 32px;
+    min-width: 32px;
+    min-height: 32px;
+    height: 32px;
+    border: 2px solid black;
+}
+
+.submitbutton{
+    width: 125px;
+    height: 40px;
+    background: #2f6fe3;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 150%;
+    position:absolute;
+    left:100%;
+    top:100%;
+    transform: translate(-90%,65%);
+    margin: -15px 0px 0px -15px;
+}
+
+.submitbutton:hover{
+    border: 2px solid black;
+    padding: 0px;
+}
+
+.nosubmitbutton{
+    width: 125px;
+    height: 40px;
+    background: #2f6ee376;
+    color: #ffffff76;
+    border: 1px solid #00000076;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 150%;
+    position:absolute;
+    left:100%;
+    top:100%;
+    transform: translate(-90%,65%);
+    margin: -15px 0px 0px -15px;
+    cursor: not-allowed;
+}
+
+.leftnosubmitbutton{
+    width: 125px;
+    height: 40px;
+    background: #2f6ee376;
+    color: #ffffff76;
+    border: 1px solid #00000076;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 150%;
+    position:absolute;
+    left:510px;
+    top:100%;
+    transform: translate(130%,-100%);
+    margin: -15px 0px 0px -15px;
+    cursor: not-allowed;
+}
+
+.leftsubmitbutton{
+    width: 125px;
+    height: 40px;
+    background: #2f6fe3;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 150%;
+    position:absolute;
+    left:510px;
+    top:100%;
+    transform: translate(-100%,-100%);
+    margin: -15px 0px 0px -15px;
+}
+
+.leftsubmitbutton:hover{
+    border: 2px solid black;
+    padding: 0px;
+}
+
+.fullsize{
+    display: inline-block;
+    width: 1070px;
+}
+
+.smallersize{
+    display: inline-block;
+    width: 510px;
+    vertical-align: top;
+}

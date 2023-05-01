@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "username": "Bear",
+      "score": 0
+    },
+    {
+      "username": "Cat",
+      "score": 0
+    },
+    {
+      "username": "Bunny",
+      "score": 0
+    },
+    {
+      "username": "Panda",
+      "score": 0
+    },
+    {
+      "username": "Dog",
+      "score": 0
+    },
+    {
+      "username": "Koala",
+      "score": 0
+    },
+    {
+      "username": "Sloth",
+      "score": 0
+    },
+    {
+      "username": "Snake",
+      "score": 0
+    },
+    {
+      "username": "Llama",
+      "score": 0
+    },
+    {
+      "username": "Penguin",
+      "score": 0
+    },
+    {
+      "username": "Cow",
+      "score": 0
+    },
+    {
+      "username": "Wolf",
+      "score": 0
+    },
+    {
+      "username": "Lion",
+      "score": 0
+    },
+    {
+      "username": "Bullfinch",
+      "score": 0
+    },
+    {
+      "username": "Kangaroo",
+      "score": 0
+    }
+  ]
+}

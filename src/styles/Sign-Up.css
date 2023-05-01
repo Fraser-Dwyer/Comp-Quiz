@@ -1,0 +1,134 @@
+.form {
+    max-width: 400px;
+    margin: 80px auto auto auto;
+    text-align: center;
+}
+
+.form label {
+    text-align: left;
+    display: block;
+  }
+  .form h2 {
+    font-size: 2.5rem;
+    color: #2f6fe3;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .form input {
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+  }
+
+  .namelabels{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .rhsfield{
+    margin-left: 20px;
+  }
+
+  .namefields{
+    margin: 6px 0;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .otherfields input{
+    margin: 6px 0;
+  }
+
+  .rhsname{
+    padding-right: 105px;
+  }
+
+  .errordiv{
+    width: 100%;
+    display: flex;
+    float: right;
+    align-items: center;
+    border-bottom: 1px solid #999;
+    justify-content: space-between;
+  }
+
+  .nocreate {
+    float: left;
+    display: flex;
+    max-width: 250px;
+    text-align: left;
+    margin: 0px 10px 6px 0px;
+    color: darkred;
+    background-color: rgb(244, 167, 167);
+    padding: 0px 10px 0px 10px;
+    border-radius: 12px;
+    border: 1px solid black;
+  }
+
+  .nocreate p {
+    align-items: center;
+    margin: 5px 5px 5px 5px;
+  }
+
+  .cross {
+    size: 0.25rem;
+    transform: translate(0px, 5px);
+  }
+
+  .bottommessage{
+    margin-top: 56px;
+    display:flex;
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .bottommessage p {
+    padding-top: -2px;
+    padding-right: 5px;
+  }
+
+  .bottommessage a {
+    padding-top: -2px;
+    padding-right: 5px;
+    color: #2f6fe3;
+  }
+
+.msg {
+    padding-top: 150px;
+  }
+
+  .refresh {
+    color: #2f6fe3;
+    text-decoration: underline;
+    padding-top: 5px;
+    cursor: pointer;
+  }
+
+  .abledButton {
+    width: 80px;
+    height: 40px;
+    font-size: 1rem;
+    background: #2f6fe3;
+    color: #fff;
+    border: 1px solid black;
+    padding: 6px;
+    border-radius: 12px;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 6px;
+  }
+
+  .disabledButton {
+    width: 80px;
+    height: 40px;
+    font-size: 1rem;
+    background: #2f6fe370;
+    color: rgba(255, 255, 255, 0.7);
+    border: 0;
+    padding: 6px;
+    border-radius: 12px;
+    float: right;
+    margin-bottom: 6px;
+  }

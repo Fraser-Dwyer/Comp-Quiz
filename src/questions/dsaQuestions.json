@@ -1,0 +1,281 @@
+[
+  {
+    "id": 1,
+    "answers": [
+      "Shell Sort, Quick Sort, Bogo Sort, Merge Sort",
+      "Merge Sort, Shell Sort, Quick Sort, Bogo Sort",
+      "Shell Sort, Bogo Sort, Quick Sort, Merge Sort",
+      "Bogo Sort, Quick Sort, Shell Sort, Merge Sort",
+      "Bogo Sort, Shell Sort, Quick Sort, Merge Short"
+    ],
+    "question": [
+      "Which of the following answers correctly shows these sorting algorithms from least efficient Big-Oh, to most efficient Big-Oh?"
+    ],
+    "answer": 3,
+    "image": "",
+    "reason": [
+      "Correct answer: Bogo Sort, Quick Sort, Shell Sort, Merge Sort",
+      "Their respective Big-Oh values are:",
+      "Infinite, n^2, n^3/2, nlogn"
+    ]
+  },
+  {
+    "id": 2,
+    "answers": [
+      "Heap Sort",
+      "Selection Sort",
+      "Shell Sort",
+      "Merge Sort",
+      "Quick Sort"
+    ],
+    "question": ["Which of these sorting algorithms use partitioning?"],
+    "answer": 4,
+    "image": "",
+    "reason": [
+      "Correct answer: Quick Sort",
+      "Heap Sort and Selection Sort use Selection",
+      "Merge Sort uses Merging",
+      "Quick Sort uses Partitioning",
+      "and Shell Sort uses Insertion"
+    ]
+  },
+  {
+    "id": 3,
+    "answers": [
+      "Stable Sorting maintains some of the order for equal-sized items, but not always",
+      "Stable Sorting isn't a real sorting property and it has no real definition",
+      "Stable Sorting ignores the initial order when sorting, not maintaining the order of equal-valued items",
+      "Stable Sorting sorts swapping items from the same index every time, regardless of their values",
+      "Stable Sorting takes into account the initial order when sorting, maintaining the order of equal valued items"
+    ],
+    "question": ["What does Stable Sorting mean?"],
+    "answer": 4,
+    "image": "",
+    "reason": [
+      "Correct answer: Stable Sorting takes into account the initial order when sorting, maintaining the order of equal valued items",
+      "For example: if we sorted the following array into increasing size order:",
+      "[5,2,2,3,4,1,7]",
+      "When we compare the two 2s to each other to determine which one is larger, their initial positions are preserved.",
+      "The 2 that is on the right in the array above, will be the 2 on the right in the array below:",
+      "[1,2,2,3,4,5,7]"
+    ]
+  },
+  {
+    "id": 4,
+    "answers": [
+      "A,B,D,E,C,F,G",
+      "A,B,C,D,E,F,G",
+      "A,B,D,C,F,E,G",
+      "A,C,G,F,B,E,D",
+      "D,B,E,A,C,F,G"
+    ],
+    "question": [
+      "Which of the following correctly lists the order of the nodes following a Pre-Order Tree Traversal?",
+      "image"
+    ],
+    "answer": 0,
+    "image": [
+      "https://drive.google.com/uc?id=1jNL01XGb3Dy0rmJ02bvkVTTPeQbXjsDz",
+      "400px"
+    ],
+    "reason": [
+      "Correct answer: A,B,D,E,C,F,G",
+      "(PRE-ORDER TRAVERSAL) Follow the green line, and when you cross a node's red line, output that node:",
+      "image"
+    ],
+    "reason_image": [
+      "https://drive.google.com/uc?id=1Y4ywePuK7C4sexYeKisCXYmHGuaEuPJg",
+      "350px"
+    ]
+  },
+  {
+    "id": 5,
+    "answers": [
+      "A,B,C,D,E,F,G",
+      "D,B,E,A,F,C,G",
+      "D,E,B,A,F,G,C",
+      "D,B,E,A,F,G,C",
+      "D,E,B,F,G,C,A"
+    ],
+    "question": [
+      "Which of the following correctly lists the order of the nodes following a Post-Order Tree Traversal?",
+      "image"
+    ],
+    "answer": 4,
+    "image": [
+      "https://drive.google.com/uc?id=1jNL01XGb3Dy0rmJ02bvkVTTPeQbXjsDz",
+      "400px"
+    ],
+    "reason": [
+      "Correct answer: D,E,B,F,G,C,A",
+      "(POST-ORDER TRAVERSAL) Follow the green line, and when you cross a node's red line, output that node:",
+      "image"
+    ],
+    "reason_image": [
+      "https://drive.google.com/uc?id=1_0VI37v4mQgzzclcMK9BaZcBrIx5XUMy",
+      "350px"
+    ]
+  },
+  {
+    "id": 6,
+    "answers": [
+      "B,D,E,A,C,F,G",
+      "A,B,C,D,E,F,G",
+      "D,B,E,F,C,G,A",
+      "D,B,E,A,F,C,G",
+      "A,B,D,E,F,C,G"
+    ],
+    "question": [
+      "Which of the following correctly lists the order of the nodes following a In-Order Tree Traversal?",
+      "image"
+    ],
+    "answer": 3,
+    "image": [
+      "https://drive.google.com/uc?id=1jNL01XGb3Dy0rmJ02bvkVTTPeQbXjsDz",
+      "400px"
+    ],
+    "reason": [
+      "Correct answer: D,B,E,A,F,C,G",
+      "An In-Order traversal essentially reads a tree from left-to-right.",
+      "(IN-ORDER TRAVERSAL) Follow the green line, and when you cross a node's red line, output that node:",
+      "image"
+    ],
+    "reason_image": [
+      "https://drive.google.com/uc?id=15nX6c5ivcN85Xs1Y8Dl_-XNBPXasiEiM",
+      "350px"
+    ]
+  },
+  {
+    "id": 7,
+    "answers": [
+      "Pre-Order",
+      "In-Order",
+      "Post-Order",
+      "Bottom-Order",
+      "Level-Order"
+    ],
+    "question": [
+      "Which of the following traversals outputs the data in sorted order in a BST?"
+    ],
+    "answer": 1,
+    "image": [
+      "https://drive.google.com/uc?id=1jNL01XGb3Dy0rmJ02bvkVTTPeQbXjsDz",
+      "400px"
+    ],
+    "reason": [
+      "Correct answer: In-order",
+      "In-Order traversal would essentially read the BST from left to right which would allow for the output to be sorted",
+      "This is because BSTs are formed in such a way that the smallest number is as far left as it can go, and the largest number is as far right as it can go. See an example BST in the image below",
+      "image"
+    ],
+    "reason_image": [
+      "https://drive.google.com/uc?id=1iBPZgns7Q2kvsOc5wGDbKAjUW6-K7YH-",
+      "350px"
+    ]
+  },
+  {
+    "id": 8,
+    "answers": [
+      "1 4 6 6 4 1",
+      "1 3 5 1 3 5",
+      "1 2 3 5",
+      "1 3 5 5 3 1",
+      "1 3 5"
+    ],
+    "question": [
+      "What is the output of the following function in which start is pointing to the first node of the following linked list 1->2->3->4->5->6 ?",
+      "image"
+    ],
+    "answer": 3,
+    "image": [
+      "https://drive.google.com/uc?id=1rpzzDFPxQHsAlDY2ULD0euLxaIXla9qo",
+      "350px"
+    ],
+    "reason": [
+      "Correct answer: 1 3 5 5 3 1",
+      "The function prints the data of the current node and then recursively calls itself with the second next node (i.e., start->next->next).",
+      "So, it prints the data of every alternate node of the linked list i.e 1 3 5, and then, since the next->next of 5 is null, it returns and prints the data of the current node, bubbling up the callstack, so it then prints 5 3 1",
+      "Therefore, for the given linked list 1->2->3->4->5->6, the function would print 1 3 5 5 3 1."
+    ]
+  },
+  {
+    "id": 9,
+    "answers": ["0", "1", "3", "4", "5"],
+    "question": [
+      "In a doubly linked list, the number of pointers affected for an insertion operation that is not at the head or tail of the list would be would be"
+    ],
+    "answer": 3,
+    "image": "",
+    "reason": [
+      "Correct answer: 4",
+      "When an insertion is not at the head or tail of a doubly linked list, it affects exactly 4 pointers:",
+      "1. The next pointer for the previous node",
+      "2. The previous pointer of the current node",
+      "3. The next pointer of the current node",
+      "4. The previous pointer of the next node",
+      "-",
+      "If the node inserted was at the head or tail of the list, then it would affect 2 pointers."
+    ]
+  },
+  {
+    "id": 10,
+    "answers": [
+      "46, 42, 34, 52, 23, 33",
+      "34, 42, 23, 52, 33, 46",
+      "46, 34, 42, 23, 52, 33",
+      "42, 46, 33, 23, 34, 52",
+      "None of the above"
+    ],
+    "question": [
+      "A hash table of length 10 uses open addressing with hash function h(k)=k mod 10, and linear probing. After inserting 6 values into an empty hash table, the table is as shown below.",
+      "image",
+      "Which one of the following choices gives a possible order in which the key values could have been inserted in the table?"
+    ],
+    "answer": 2,
+    "image": [
+      "https://drive.google.com/uc?id=18prSGDrNfLBaO_Q6K7nuD7WWEn5kZLKN",
+      "250px"
+    ],
+    "reason": [
+      "Correct answer: 46, 34, 42, 23, 52, 33",
+      "Following each of the suggested orders, left to right in each case, using linear probing, the only option that is feasible is C.",
+      "The other options all include an element being in the wrong position from the figure from the question",
+      "Linear probing is when the hash function produces a key which is already taken so the value is moved down the hash table until an empty space is found.",
+      "-",
+      "Example:",
+      "Starting with 46, h(46) = 46 mod 10 = 6. So you try to insert 46 into index 6. Index 6 starts off empty, so you can place 46 in there",
+      "If you then tried to insert 56 into the table, h(56) = 56 mod 10 also = 6. Since table index 6 is not free anymore, you move down the table until you find a free space. So in this case, you'd move to index 7, which is free and insert 56 there."
+    ]
+  },
+  {
+    "id": 11,
+    "answers": [
+      "8, _, _, _, _, _, 10",
+      "1, 8, 10, _, _, _, 3",
+      "1, _, _, _, _, _,3",
+      "1, 10, 8, _, _, _, 3",
+      "None of the above"
+    ],
+    "question": [
+      "Consider a hash table of size seven, with starting index zero, and a hash function",
+      "(3x + 4) mod 7",
+      "Assuming the hash table is initially empty, which of the following is the contents of the table when the sequence 1, 3, 8, 10 is inserted into the table using closed hashing?",
+      "Note that ‘_’ denotes an empty location in the table"
+    ],
+    "answer": 1,
+    "image": "",
+    "reason": [
+      "Correct answer: 1, 8, 10, _, _, _, 3",
+      "Initially the hash table is empty:",
+      "_, _, _, _, _, _ ",
+      "When x=1, (3x + 4) mod 7 = 0, so let us put 1 at index 0:",
+      "1, _, _, _, _, _ ",
+      "When x=3, (3x + 4) mod 7 = 6, so let us put 3 at index 6:",
+      "1, _, _, _, _, 3 ",
+      "When x=8, (3x + 4) mod 7 = 0, but index 0 is already occupied by 1, so let us put 8 at next available index which is 1:",
+      "1, 8, _, _, _, 3 ",
+      "When x=10, (3x + 4) mod 7 = 6, but index 6 is already occupied by 3, so let us put 10 at next available index which is 2 (index wraps back to start and index 0 and 1 are already taken)",
+      "1, 8, 10, _, _, 3 "
+    ]
+  }
+]

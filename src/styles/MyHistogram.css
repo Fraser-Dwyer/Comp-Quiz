@@ -1,0 +1,41 @@
+.backing {
+    margin: 68.39px 15px 15px 247px;
+    border-radius: 15px;
+    width: 320px;
+    height:513px;
+    position: fixed;
+    left: 50%;
+    top: 0px;
+    transform: translate(-50px, 0%);
+    background-color: #ffffff;
+    z-index: 999;
+    border: 2px solid black;
+}
+
+.histocontainer{
+    width: 250px;
+    height: 330px;
+    position: relative;
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -55%);
+}
+
+.datavistitle{
+    position: absolute;
+    top: 71px;
+    left: 810px;
+    z-index: 1000;
+    text-decoration: underline;
+}
+
+.explain{
+    width: 270px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.explain p{
+    margin: 0px;
+    font-size: 90%;
+}

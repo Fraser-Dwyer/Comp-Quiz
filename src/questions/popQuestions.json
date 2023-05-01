@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "answers": [
+      "Logical errors",
+      "Compile-time errors",
+      "Run-time errors",
+      "Syntax errors",
+      "None of the above"
+    ],
+    "question": [
+      "Which of the following is NOT a type of error which can occur during the execution of a program?"
+    ],
+    "answer": 1,
+    "reason": [
+      "Correct answer: Compile-time errors",
+      "During the execution of a program, there are three kinds of error that may occur:",
+      "Syntax errors, Run-time errors, and Logical errors"
+    ]
+  },
+
+  {
+    "id": 2,
+    "answers": [
+      "Input (Code) - Compiler - Object Code - Executor - Output",
+      "Input (Code) - Interpreter - Object Code - Final Output",
+      "Input (Code) - Interpreter - Executor - Final Output",
+      "Input (Code) - Interpreter - Final Output",
+      "Input (Code) - Compiler - Executor - Final Output"
+    ],
+    "question": [
+      "High-level programming languages are \"translated\" to machine specific instructions. The translation of programs written in high level languages to machine specific instructions can be achieved in more than one way. Using an interpreter the steps taken from code to final output are:"
+    ],
+    "answer": 3,
+    "reason": [
+      "Correct answer: Input (Code) - Interpreter - Final Output",
+      "An interpreter goes through your code and converts each line in turn into machine code, then executes it immediately. However, no object code is generated which helps interpreters be memory efficient."
+    ]
+  },
+
+  {
+    "id": 3,
+    "answers": [
+      "Input (Code) - Interpreter - Final Output",
+      "Input (Code) - Compiler - Output",
+      "Input (Code) - Compiler - Object Code - Output",
+      "Input (Code) - Compiler - Object Code - Executor - Output",
+      "Input (Code) - Compiler - Executor - Output"
+    ],
+    "question": [
+      "High-level programming languages are \"translated\" to machine specific instructions. The translation of programs written in high level languages to machine specific instructions can be achieved in more than one way. Using a compiler the steps taken from code to final output are:"
+    ],
+    "answer": 2,
+    "reason": [
+      "Correct answer: Input (Code) - Compiler - Object Code - Output",
+      "A compiler will first assemble the entire code into object (machine) code. Then the compiled code is executed to produce the final output."
+    ]
+  },
+
+  {
+    "id": 4,
+    "answers": [
+      "float f;",
+      "float f = 13.0;",
+      "f = 13.0;",
+      "f = 13.0 as float;",
+      "float 13.0;"
+    ],
+    "question": [
+      "Which of the following is an example of variable instantiation in C?"
+    ],
+    "answer": 1,
+    "reason": [
+      "Correct answer: float f = 13.0;",
+      "Variables in C are instantiated using the following syntax: <type> variableName = <value>;",
+      "In this example, <type> is float, variableName is 'f', and <value> is 13.0"
+    ]
+  },
+
+  {
+    "id": 5,
+    "answers": [
+      "The compiler fixes the error for you and runs as you had intended to code it",
+      "The compiler will tell you it cannot compile the code, but not tell you where the error is",
+      "Your program will terminate when the line containing the error is executed ",
+      "The compiler will find the error and tell you what is wrong",
+      "The program will run but it will not do what you expect it to do"
+    ],
+    "question": [
+      "In C, if you have a syntax error in your program what will happen?"
+    ],
+    "answer": 3,
+    "reason": [
+      "Correct answer: The compiler will find the error and tell you what is wrong",
+      "Compilers will highlight the line of code that caused the syntax error so it is really easy to find and fix. Most commonly this is as simple as missing a semi-colon at the end of a line."
+    ]
+  },
+  {
+    "id": 6,
+    "answers": [
+      "A try block can have multiple catch blocks",
+      "Variables declared in a try block are not visible in an associated catch block",
+      "The finally block will execute code regardless of whether an exception occurs",
+      "If an unhandled exception occurs, it is passed to the calling method",
+      "Exception classes will only deal with exceptions that meet its type; it won't check exception subclasses"
+    ],
+    "question": [
+      "Which of the following statements about try/catch/finally blocks is FALSE?"
+    ],
+    "answer": 4,
+    "reason": [
+      "Correct answer: Exception classes will only deal with exceptions that meet its type; it won't check exception subclasses",
+      "All subclasses of Exception (besides RuntimeException) are checked exceptions.",
+      "-",
+      "Why the other options are not the answer:",
+      "Try blocks CAN have multiple catch blocks, each catching various errors",
+      "Variables declared in a try block are not visible in an associated catch block, as the catch block is out of scope of the try block where the variable is declared",
+      "Finally blocks will always execute regardless of exceptions occurring or not",
+      "Unhandled exceptions bubble up the callstack until it is caught or the original calling function is reached."
+    ]
+  },
+  {
+    "id": 7,
+    "answers": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "An object is not instantiated within this code"
+    ],
+    "question": [
+      "Consider the following Java code:",
+      "image",
+      "On which line is an object instantiated?"
+    ],
+    "answer": 3,
+    "image": [
+      "https://drive.google.com/uc?id=1cNHwFKI39HPyrXPghglq4E--SJCsCk45",
+      "400px"
+    ],
+    "reason": [
+      "Correct answer: Line 5",
+      "In Java programming, instantiating an object means to create an instance of a class.",
+      "Line 5 creates an instance of the Random class, where the instance is called \"rand\""
+    ]
+  },
+  {
+    "id": 8,
+    "answers": [
+      "Void, final, and static",
+      "Static, class, and main",
+      "Static, protected, and final",
+      "Public, private, and protected",
+      "Extends, implements, and abstract"
+    ],
+    "question": [
+      "In Java, access modifiers can be identified by the key-words, "
+    ],
+    "answer": 3,
+    "reason": [
+      "Correct answer: Public, Private, and Protected",
+      "The access modifiers in Java specifies the accessibility or scope of a field, method, constructor, or class. We can change the access level of fields, constructors, methods and class by applying the access modifier on it.",
+      "There are four types of Java access modifiers: Private, Default, Protected, and Public."
+    ]
+  },
+  {
+    "id": 9,
+    "answers": ["18", "9", "0", "3", "40"],
+    "question": [
+      "Consider the C code below",
+      "image",
+      "When this code is run, what will be printed out?"
+    ],
+    "answer": 1,
+    "image": [
+      "https://drive.google.com/uc?id=16vhVhGnrvCBEBUCjXceQ4gUO3tp4StTH",
+      "300px"
+    ],
+    "reason": [
+      "Correct answer: 9",
+      "The for loop will run twice, when i = 1 and when i = 2.",
+      "The first loop will yield result = 0 + (1*3) = 3",
+      "The second loop will yield result = 3 + (2*3) = 9"
+    ]
+  },
+  {
+    "id": 10,
+    "answers": ["10", "5", "2", "1", "0"],
+    "question": [
+      "Consider the C code below:",
+      "image",
+      "When run, this code will print,"
+    ],
+    "answer": 0,
+    "image": [
+      "https://drive.google.com/uc?id=1ArfTlTJZQTiaUjqG-QfBLPx7Drx2NPqk",
+      "200px"
+    ],
+    "reason": [
+      "Correct answer: 10",
+      "When a function makes a nested call, the following happens:",
+      "The current function is paused",
+      "The execution context associated with it is remembered in a special data structure called execution context stack",
+      "The nested call executes",
+      "After it end, the old execution context is retrieved from the stack, and the other function is resumed from where it stopped",
+      "-",
+      "This means that the original call will return the original value of n after all the recursive calls are done, and the original value of n was 10, therefore, 10 will be the output"
+    ]
+  }
+]
